@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FSEchatroom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/VictimChatroom" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Victim_chatroom" vcs="Git" />
   </component>
 </project>
