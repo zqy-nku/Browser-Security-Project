@@ -1,0 +1,118 @@
+<!doctype html>
+<!--<meta http-equiv="Content-Security-Policy" content="style-src 'self'">-->
+<html>
+
+<head>
+    <title><%= title %></title>
+</head>
+
+<body>
+    <h2 align="center">FSE Chat Room</h2>
+    <input type = "hidden" id = "content"  value = "CIsJF39I8wNZNlR4">
+    <div class="userinf">
+        <span align="left" display : inline> User(ME): </span>
+        <span id="name" display :inline> User: </span>
+        <script>
+            var url = location.search;
+            var url = location.search;
+            var uname;
+            if (url.indexOf("?") != -1) {
+                uname = url.substr(10);
+                uname = decodeURI(uname);
+            }
+            document.getElementById("name").innerHTML = uname;
+        </script>
+        <a href="login">Logout</a>
+    </div>
+    <div class="chatroom">
+        <div id="ChatMessage" class="chatmessage">
+        </div>
+    </div>
+
+    <form action="">
+    <div align="center">
+            <input  autocomplete="off" type="text" class="form-control" id="inputcontent" style = "background-color: rgb(252,157,154)" onchange="changeValue(this)">
+    </div>
+        <br />
+        <br />
+        <div align="center">
+            <button id="post"> POST </button>
+        </div>
+    </form>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+        </script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        function changeValue(obj){
+            $(obj).attr("value",$(obj).val());
+        }
+        var url = location.search;
+        var uname;
+        if (url.indexOf("?") != -1) {
+            uname = url.substr(10);
+        }
+        $(function () {
+            var socket = io.connect('http://localhost:3000');
+            socket.emit('showhistory', uname);
+            $("#post").click(function () {
+                var date = new Date();
+                var time = "[" + date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + "]";
+                var data = {
+                    "username": uname,
+                    "content": $('#content').val(),
+                    "time": time
+                };
+                $.ajax({
+                    url: '/home',
+                    type: 'post',
+                    data: data,
+                    success: function () {
+                        console.log("success");
+                    },
+                    error: function () {
+                        console.log("failed");
+                    }
+                });
+                socket.emit('chat message', data);
+                $('#content').val('');
+                return false;
+            });
+
+
+            socket.on('news', function (data) {
+                socket.emit('my other event', { my: 'data' });
+            });
+
+            socket.on('chat message', function (data) {
+                if (data.username != uname) {
+                    $('.chatroom').append("<div class='chatmessage'><span class='USERNAME'>@" + data.username + ":</span><span class='TIME'>" + data.time + "</span><br><li class='CONTENT' style='font-family: poc'>" + data.content + "</li></div>");
+                }// $('#messages').append($('<li>').text(data.username + ": " + data.content + " " + data.time));
+                else {
+                    $('.chatroom').append("<div class='chatmessage'><span class='USERNAME'>(ME):</span><span class='TIME'>" + data.time + "</span><br><li class='CONTENT' >" + data.content + "</li></div>");
+                }
+            });
+
+            socket.on('loginResult', function (username) {
+                var date = new Date();
+                var time = "[" + date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + "]";
+                $('.chatroom').append("<div class='chatmessage'><span class='LOGINUSERNAME'>" + username + " LOGIN </span><span class='TIME'>" + time + "</span><br></div>");
+                // $('#messages').append($('<li>').text(username + ' login'));
+            });
+
+            socket.on('returnhistory', function (data) {
+                if (data.name != uname) {
+                    $('.chatroom').append("<div class='chatmessage'> <span class='USERNAME'>@" + data.name + ":</span><span class='TIME'>" + data.time + "</span><br><li class='CONTENT'>" + data.content + "</li></div>");
+                    // $('#messages').append($('<li>').text(data.name + ": " + data.content + " " + data.time));
+                }
+                else {
+                    $('.chatroom').append("<div class='chatmessage'><span class='USERNAME'>(ME):</span><span class='TIME'>" + data.time + "</span><br><li class='CONTENT'>" + data.content + "</li></div>");
+                    // $('#messages').append($('<li>').text("(ME) : " + data.content + " " + data.time));
+                }
+            });
+        });
+    </script>
+</body>
+<link rel='stylesheet' href='/stylesheets/home.css' />
+</html>

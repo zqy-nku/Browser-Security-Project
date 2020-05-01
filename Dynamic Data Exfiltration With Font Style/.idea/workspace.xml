@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6626691-5bef-4db6-8335-ac261f4dad3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/accepts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/accepts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/after/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/after/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/append-field/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/append-field/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/array-flatten/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/array-flatten/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/arraybuffer.slice/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/arraybuffer.slice/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/async-limiter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/async-limiter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/backo2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/backo2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/base64-arraybuffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/base64-arraybuffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/base64id/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/base64id/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/basic-auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/basic-auth/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/better-assert/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/better-assert/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/blob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/blob/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/bluebird/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/bluebird/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/body-parser/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/body-parser/node_modules/http-errors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/body-parser/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/body-parser/node_modules/qs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/body-parser/node_modules/setprototypeof/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/body-parser/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/body-parser/node_modules/statuses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/body-parser/node_modules/statuses/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/bson/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/bson/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/buffer-from/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/buffer-from/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/busboy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/busboy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/bytes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/callsite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/callsite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/component-bind/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/component-bind/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/component-emitter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/component-emitter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/component-inherit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/component-inherit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/concat-stream/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/concat-stream/node_modules/isarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/concat-stream/node_modules/readable-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/concat-stream/node_modules/readable-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/concat-stream/node_modules/string_decoder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/concat-stream/node_modules/string_decoder/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/concat-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/concat-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/content-disposition/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/content-disposition/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/content-type/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/content-type/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/cookie-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/cookie-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/cookie-signature/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/cookie-signature/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/cookie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/cookie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/core-util-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/core-util-is/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/depd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/depd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/destroy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/destroy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/dicer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/dicer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/ee-first/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/ee-first/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/ejs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/ejs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/encodeurl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/encodeurl/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io-client/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io-client/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io-client/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io-client/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io-client/node_modules/ws/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io-client/node_modules/ws/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/engine.io/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/escape-html/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/escape-html/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/etag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/etag/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/express-session/node_modules/cookie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/express-session/node_modules/cookie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/express-session/node_modules/depd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/express-session/node_modules/depd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/express-session/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/express-session/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/express-session/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/express-session/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/express/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/express/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/express/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/express/node_modules/bytes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/express/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/express/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/express/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/express/node_modules/raw-body/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/finalhandler/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/finalhandler/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/forwarded/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/forwarded/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/fresh/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/fresh/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/has-binary2/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/has-binary2/node_modules/isarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/has-binary2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/has-binary2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/has-cors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/has-cors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/http-errors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/indexof/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/indexof/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/inherits/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/inherits/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/ipaddr.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/ipaddr.js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/isarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/kareem/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/kareem/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/media-typer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/media-typer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/memory-pager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/memory-pager/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/merge-descriptors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/merge-descriptors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/methods/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/methods/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/mime-db/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/mime-db/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/mime-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/mime-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/mime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/mime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/minimist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/minimist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/mkdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/mkdirp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/mongodb/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/mongodb/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/mongoose-legacy-pluralize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/mongoose-legacy-pluralize/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/mongoose/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/mongoose/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/mongoose/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/mongoose/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/morgan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/morgan/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/mpath/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/mpath/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/mquery/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/mquery/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/mquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/mquery/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/multer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/multer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/negotiator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/negotiator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/object-assign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/object-assign/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/object-component/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/object-component/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/on-finished/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/on-finished/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/on-headers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/on-headers/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/parseqs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/parseqs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/parseuri/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/parseuri/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/parseurl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/parseurl/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/path-to-regexp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/path-to-regexp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/process-nextick-args/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/process-nextick-args/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/proxy-addr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/proxy-addr/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/qs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/random-bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/random-bytes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/range-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/range-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/raw-body/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/raw-body/node_modules/http-errors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/raw-body/node_modules/setprototypeof/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/raw-body/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/raw-body/node_modules/statuses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/raw-body/node_modules/statuses/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/raw-body/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/readable-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/readable-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/regexp-clone/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/regexp-clone/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/require_optional/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/require_optional/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/resolve-from/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/resolve-from/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/safer-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/safer-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/saslprep/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/saslprep/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/send/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/send/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/serve-static/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/serve-static/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/setprototypeof/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/sift/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/sift/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/sliced/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/sliced/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-adapter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-adapter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/node_modules/isarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/node_modules/socket.io-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/node_modules/socket.io-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-parser/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-parser/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-parser/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-parser/node_modules/isarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-parser/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-parser/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/socket.io/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/sparse-bitfield/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/sparse-bitfield/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/statuses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/statuses/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/streamsearch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/streamsearch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/string_decoder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/string_decoder/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/to-array/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/to-array/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/toidentifier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/toidentifier/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/type-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/type-is/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/typedarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/typedarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/uid-safe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/uid-safe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/unpipe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/unpipe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/util-deprecate/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/util-deprecate/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/utils-merge/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/utils-merge/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/vary/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/vary/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/ws/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/ws/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/xmlhttprequest-ssl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/xmlhttprequest-ssl/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/xtend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/xtend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/node_modules/yeast/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/node_modules/yeast/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/public/stylesheets/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/public/stylesheets/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/views/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSEchatroom/views/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/FSEchatroom/views/register.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/FSEchatroom" />
+  </component>
+  <component name="ProjectId" id="1bHtoI3PvPj9jo3l8sakH7pag7n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6626691-5bef-4db6-8335-ac261f4dad3a" name="Default Changelist" comment="" />
+      <created>1588301019998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588301019998</updated>
+      <workItem from="1588301021563" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
