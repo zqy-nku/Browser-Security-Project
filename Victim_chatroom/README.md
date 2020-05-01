@@ -1,4 +1,4 @@
-# FSEchatroom
+# This chatroom 
 cited online example: 
 https://socket.io/get-started/chat/ (for socket io)
 https://github.com/imwtr/nodeJs_chat_room (for login logout)
