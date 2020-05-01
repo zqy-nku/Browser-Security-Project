@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+    <h1>Register Page</h1>
+    <form role="form">
+      <div class="form-group">
+        <label for="USERNAME">USERNAME</label>
+        <input type="text" class="form-control" id="name" name="name"
+             placeholder=" INPUT USERNAME ... ">
+      </div>
+    </form>
+    <p></p>
+    <form role="form">
+
+      <div class="form-group">
+        <label for="PASSWORD">PASSWORD</label>
+        <input type="password" class="form-control" id="password" name="password" value = "1234"
+             placeholder=" INPUT PASSWORD ... ">
+      </div>
+    </form>
+    <p></p>
+    <button type="submit" class="btn btn-primary btn-block" id="registerbtn">REGISTER</button>
+    <p></p>
+    <button type="submit" class="btn btn-primary btn-block" id="loginbtn">LOGIN</button>
+
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $(function(){
+        $("#registerbtn").click(function(){
+          var username = $("#name").val();
+          var password = $("#password").val();
+          var data = {"name":username,"password":password};
+          $.ajax({ 
+                url: '/register',
+                type: 'post',
+                data: data,
+                success: function(){ 
+                        location.href = 'login';
+                },
+                error: function(){ 
+                        location.href = 'register';
+                }
+            }); 
+        });
+
+        $("#loginbtn").click(function(){
+          location.href = 'http://localhost:3000/login';
+        });
+      });
+    </script>
+  </body>
+</html>
