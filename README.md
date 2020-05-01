@@ -1,5 +1,5 @@
 # Browser-Security-Project
-By Qingyu Zhu and Luyi Chen
+By Luyi Chen and Qingyu Zhu
 
 Spring 2020 Carnegie Mellon University
 18636/14828 Browser Security
